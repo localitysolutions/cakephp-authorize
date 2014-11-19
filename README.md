@@ -12,7 +12,17 @@ Requirements
 Installation
 ----------------
 
-Use composer.
+_[Composer]_
+
+Add to `require` in your composer.json file:
+
+```json
+	{
+		"require": {
+			"tanuck/cakephp-authorize": "dev-master"
+		}
+	}
+```
 
 Usage
 ----------------
