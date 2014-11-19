@@ -4,6 +4,7 @@
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp", "plugin", "authorize", "auth", "acl"],
 	"homepage": "http://github.com/tanuck/cakephp-authorize",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "James Tancock",
