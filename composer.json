@@ -1,0 +1,18 @@
+{
+	"name": "tanuck/cakephp-authorize",
+	"description": "CakePHP plugin including a new authorize class for the Acl component.",
+	"type": "cakephp-plugin",
+	"keywords": ["cakephp", "plugin", "authorize", "auth", "acl"],
+	"homepage": "http://github.com/tanuck/cakephp-authorize",
+	"authors": [
+		{
+			"name": "James Tancock",
+			"email": "tanuck@gmail.com",
+			"homepage": "http://github.com/tanuck",
+			"role": "Author"
+		}
+	],
+	"require": {
+		"composer/installers": "*"
+	}
+}
