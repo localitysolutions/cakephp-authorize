@@ -21,6 +21,7 @@ Standard CakePHP plugin installation, in `app/Config/bootstrap.php` insert the l
 
 To use the PathAuthorize class for authorization:
 
+```php
 	//in $components
 	public $components = array(
 	    'Auth' => array(
@@ -33,4 +34,4 @@ To use the PathAuthorize class for authorization:
 	$this->Auth->authorize = array(
 	    'Authorize.Path' => array('actionPath' => 'controllers')
 	);
-
+```
