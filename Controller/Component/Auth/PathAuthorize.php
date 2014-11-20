@@ -3,8 +3,8 @@
 /**
  * Authorize.PathAuthorize 
  *
- * @copyright 	Copyright (c) James Tancock
- * @link 		http://github.com/tanuck/cakephp-authorize
+ * @copyright 	Copyright (c) Locality Solutions Ltd
+ * @link 		http://github.com/localitysolutions/cakephp-authorize
  * @package		Authorize.Controller.Component.Auth
  * @version 	0.1
  */
@@ -14,7 +14,7 @@ App::uses('BaseAuthorize', 'Controller/Component/Auth');
 /**
  * Authorize.PathAuthorize Class
  *
- * @author 		James Tancock <tanuck@gmail.com>
+ * @author 		James Tancock <james@localitysolutions.co.uk>
  */
 
 class PathAuthorize extends BaseAuthorize {

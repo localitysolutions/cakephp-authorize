@@ -1,15 +1,15 @@
 {
-	"name": "tanuck/cakephp-authorize",
+	"name": "locality/cakephp-authorize",
 	"description": "CakePHP plugin including a new authorize class for the Acl component.",
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp", "plugin", "authorize", "auth", "acl"],
-	"homepage": "http://github.com/tanuck/cakephp-authorize",
+	"homepage": "http://github.com/localitysolutions/cakephp-authorize",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "James Tancock",
-			"email": "tanuck@gmail.com",
-			"homepage": "http://github.com/tanuck",
+			"email": "james@localitysolutions.co.uk",
+			"homepage": "http://github.com/localitysolutions",
 			"role": "Author"
 		}
 	],
