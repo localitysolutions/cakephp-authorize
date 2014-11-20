@@ -12,6 +12,14 @@ Requirements
 Installation
 ----------------
 
+_[Git]_
+
+In your CakePHP plugin directory, run the following command:
+
+```git
+	git clone https://github.com/tanuck/cakephp-authorize.git Authorize
+```
+
 _[Composer]_
 
 Add to `require` in your composer.json file:
@@ -23,6 +31,13 @@ Add to `require` in your composer.json file:
 		}
 	}
 ```
+
+_[Manual]_
+
+1. Download the zipfile from here: [https://github.com/tanuck/cakephp-authorize/zipball/master](https://github.com/tanuck/cakephp-authorize/zipball/master)
+2. Unzip the entire contents.
+3. Rename the resulting folder to Authorize.
+4. Finally, copy it to the app/Plugin directory.
 
 Usage
 ----------------
