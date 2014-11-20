@@ -3,6 +3,8 @@ CakePHP Authorize
 
 This plugin contains a new authorize class for use with the Acl component.
 
+When the ActionsAuthorize maps requests to ACO nodes, it only allows for a maximum length of `/:plugin/:controller/:action`. The PathAuthorize class included with this plugin will allow you to use ACO nodes that include the record ID. So the path can now look like `/:plugin/:controller/:action/:id`. Allowing you to use the ACL to restrict access to individual records.
+
 Requirements
 ----------------
 
