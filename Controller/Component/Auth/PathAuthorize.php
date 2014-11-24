@@ -30,7 +30,7 @@ class PathAuthorize extends BaseAuthorize {
 
 	public function authorize($user, CakeRequest $request) {
 		$Acl = $this->_Collection->load('Acl');
-		$user array($this->settings['userModel'] => $user);
+		$user = array($this->settings['userModel'] => $user);
 
 		if (count($request->params['pass']) > 0) {
 			$acoNode = $this->action($request) . '/' . $request->params['pass'][0];
